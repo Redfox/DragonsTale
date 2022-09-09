@@ -15,7 +15,7 @@ public class CursorPointer : MonoBehaviour, IPointerClickHandler
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        Debug.Log(name);
+        //Debug.Log(name);
         SceneManager.LoadScene("BattleScene");
     }
 
